@@ -7,11 +7,15 @@ import javax.persistence.*;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Setter
+@Getter
 @Entity
 @Table(name = "token")
 public class VerificationToken {
@@ -23,4 +27,5 @@ public class VerificationToken {
     @OneToOne(fetch = FetchType.LAZY)
     private User user;
     private Instant expiryDate;
+	
 }
