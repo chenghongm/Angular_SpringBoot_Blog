@@ -12,6 +12,5 @@ import com.meng.blog.model.User;
 @Repository
 public interface CommentRepository extends JpaRepository<Comment, Long> {
     List<Comment> findByPost(Post post);
-
     List<Comment> findAllByUser(User user);
 }

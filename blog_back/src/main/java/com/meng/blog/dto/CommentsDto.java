@@ -13,4 +13,8 @@ public class CommentsDto {
     private Instant createdDate;
     private String text;
     private String userName;
+	public Long getPostId() {
+		// TODO Auto-generated method stub
+		return this.id;
+	}
 }

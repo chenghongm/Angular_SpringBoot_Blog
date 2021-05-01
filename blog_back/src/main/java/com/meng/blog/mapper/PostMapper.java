@@ -10,11 +10,15 @@ import com.meng.blog.dto.PostRequest;
 import com.meng.blog.dto.PostResponse;
 import com.meng.blog.model.Post;
 import com.meng.blog.model.Subreddit;
+import com.meng.blog.model.User;
 import com.meng.blog.model.Vote;
+import com.meng.blog.model.VoteType;
+
 import static com.meng.blog.model.VoteType.DOWNVOTE;
 import static com.meng.blog.model.VoteType.UPVOTE;
 import com.meng.blog.repo.CommentRepository;
 import com.meng.blog.repo.VoteRepository;
+import com.meng.blog.service.AuthService;
 
 @Mapper(componentModel = "spring")
 public abstract class PostMapper {
