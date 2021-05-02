@@ -13,8 +13,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 
-@AllArgsConstructor
-@NoArgsConstructor
 @Entity
 @Table(name = "token")
 public class VerificationToken {

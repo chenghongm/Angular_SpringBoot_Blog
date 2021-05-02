@@ -11,7 +11,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.validation.constraints.NotEmpty;
 
-import org.apache.catalina.User;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

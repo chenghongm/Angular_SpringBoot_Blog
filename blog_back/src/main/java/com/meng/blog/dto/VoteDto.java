@@ -12,14 +12,7 @@ import lombok.NoArgsConstructor;
 public class VoteDto {
 	private VoteType voteType;
     private Long postId;
-	public VoteDto() {
-		
-	}
-	public VoteDto(VoteType voteType, Long postId) {
-		super();
-		this.voteType = voteType;
-		this.postId = postId;
-	}
+	
 	public VoteType getVoteType() {
 		return voteType;
 	}

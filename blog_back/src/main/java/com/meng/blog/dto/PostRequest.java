@@ -14,19 +14,7 @@ public class PostRequest {
     private String url;
     private String description;
     
-    
-    
-	public PostRequest() {
-		
-	}
-	public PostRequest(Long postId, String subredditName, String postName, String url, String description) {
-		super();
-		this.postId = postId;
-		this.subredditName = subredditName;
-		this.postName = postName;
-		this.url = url;
-		this.description = description;
-	}
+   
 	public Long getPostId() {
 		return postId;
 	}

@@ -33,21 +33,7 @@ public class User {
     
     
     
-	public User() {
-		
-	}
 	
-	public User(Long userId, @NotBlank(message = "Username is required") String username,
-			@NotBlank(message = "Password is required") String password,
-			@Email @NotEmpty(message = "Email is required") String email, Instant created, boolean enabled) {
-		super();
-		this.userId = userId;
-		this.username = username;
-		this.password = password;
-		this.email = email;
-		this.created = created;
-		this.enabled = enabled;
-	}
 
 	public Long getUserId() {
 		return userId;

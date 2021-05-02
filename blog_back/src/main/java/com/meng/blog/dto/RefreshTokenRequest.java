@@ -13,14 +13,7 @@ public class RefreshTokenRequest {
 	@NotBlank
 	private String refreshToken;
 	private String username;
-	public RefreshTokenRequest(@NotBlank String refreshToken, String username) {
-		super();
-		this.refreshToken = refreshToken;
-		this.username = username;
-	}
-	public RefreshTokenRequest() {
-		
-	}
+	
 	public String getRefreshToken() {
 		return refreshToken;
 	}
