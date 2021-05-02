@@ -9,14 +9,13 @@ import org.springframework.stereotype.Service;
 
 import com.meng.blog.dto.*;
 import com.meng.blog.exception.PostNotFoundException;
-import com.meng.blog.mapper.*;
+import com.meng.blog.mapper.CommentMapper;
 import com.meng.blog.model.*;
 import com.meng.blog.repo.*;
 
-import lombok.AllArgsConstructor;
+
 
 @Service
-@AllArgsConstructor
 public class CommentService {
     private static final String POST_URL = "";
     @Autowired

@@ -1,6 +1,7 @@
 package com.meng.blog.mapper;
 
-import org.mapstruct.*;
+import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
 
 import com.meng.blog.dto.CommentsDto;
 import com.meng.blog.model.Comment;
